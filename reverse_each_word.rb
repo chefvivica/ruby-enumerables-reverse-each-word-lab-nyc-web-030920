@@ -16,11 +16,10 @@
 # end
 
 
-def reverse_each_word(string)
-  string = " "
-  puts reversed_sentence = %w[string]
-  reversed_sentence.each do |x|
+def reverse_each_word(sentence1)
+  
+  %w[sentence1].each do |x|
     x. reverse 
   end 
-  reversed_sentence. join(" ")
+sentence1. join(" ")
 end 
