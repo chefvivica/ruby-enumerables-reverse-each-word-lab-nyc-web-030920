@@ -18,6 +18,7 @@
 
 def reverse_each_word(string)
   string = " "
-  puts reversed_sentence = w%string
+  puts reversed_sentence = %w[string]
+  string.each do 
   
 end 
