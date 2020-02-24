@@ -25,12 +25,7 @@ def reverse_each_word(sentence)
     return_array.join(" ")
 end 
   
-  
-    sentence.split(" ").each do |words|
-    sentence << words.reverse 
-  end 
-    sentence.join(" ")
-end 
+
 
 
 #   original_array = string.split(" ")
