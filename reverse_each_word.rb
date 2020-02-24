@@ -18,7 +18,7 @@
 
 def reverse_each_word(sentence)
   
-    sentence.split(' ') each do |word|
+    (sentence.split(' ')).each do |word|
     puts word.
     
   end 
