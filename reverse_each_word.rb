@@ -19,6 +19,7 @@
 def reverse_each_word(sentence)
   
     sentence.split(' ').each do |word|
-    puts word.reverse
+    puts word.
+    
   end 
 end 
