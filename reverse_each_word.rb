@@ -19,8 +19,8 @@
 def reverse_each_word(string)
   string = " "
   puts reversed_sentence = %w[string]
-  string.each do |reversed_sentence|
-    reversed_sentence. reverse 
+  reversed_sentence.each do |x|
+    x. reverse 
   end 
   string
 end 
