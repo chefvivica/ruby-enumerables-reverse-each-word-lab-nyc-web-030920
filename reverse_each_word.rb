@@ -14,3 +14,7 @@
 #     reverse_each_word("Verifying that collect is being called.")
 #   end
 # end
+
+
+def reverse_each_word("string")
+end 
