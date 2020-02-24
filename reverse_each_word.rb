@@ -25,5 +25,11 @@ def reverse_each_word(sentence)
     return_array.join(" ")
 end 
   
-
+def reverse_each_word(sentence)
+    return_array = []
+    sentence_to_array = sentence.split(" ")
+    sentence_to_array.each do|s|
+      return_array << s.reverse
+    end 
+    return_array.join(" ")
 
