@@ -19,19 +19,11 @@
 def reverse_each_word(sentence)
     return_array = []
     sentence_to_array = sentence.split(" ")
-    sentence_to_array.each do|sentence|
-      return_array << sentence.reverse
+    sentence_to_array.each do|s|
+      return_array << s.reverse
     end 
     return_array.join(" ")
 end 
   
 
 
-
-#   original_array = string.split(" ")
-#   return_array = []
-#   original_array.each do|string|
-#     return_array << string.reverse
-#   end
-#   return_array.join(" ")
-# end
