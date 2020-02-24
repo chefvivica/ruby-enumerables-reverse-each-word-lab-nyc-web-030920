@@ -22,4 +22,5 @@ def reverse_each_word(string)
   string.each do |reversed_sentence|
     reversed_sentence. reverse 
   end 
+  string
 end 
