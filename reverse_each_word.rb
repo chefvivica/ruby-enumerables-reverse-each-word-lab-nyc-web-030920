@@ -21,5 +21,5 @@ def reverse_each_word(sentence1)
   %w[sentence1].each do |x|
     x. reverse 
   end 
-sentence1. join(" ")
+%w[sentence1]. join(" ")
 end 
