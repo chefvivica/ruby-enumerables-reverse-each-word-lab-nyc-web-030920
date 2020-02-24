@@ -17,4 +17,7 @@
 
 
 def reverse_each_word(string)
+  string = " "
+  puts reversed_sentence = w%string
+  
 end 
