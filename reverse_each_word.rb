@@ -18,8 +18,8 @@
 
 def reverse_each_word(sentence)
   
-  sentence.split(' ').each do |words|
-    words.reverse 
+  sentence.split(' ').each do |word|
+    word.reverse 
   end 
   sentence.join(" ")
 end 
